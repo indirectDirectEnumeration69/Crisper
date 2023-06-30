@@ -1,5 +1,5 @@
 # Crisper
-Sub Project -works correctly so far (building idea of layout for actual bigger idea)
+Sub Project -works correctly so far (building idea of layout for actual bigger project idea)
 
 
 -------------------------------------------------------------------------------------------------

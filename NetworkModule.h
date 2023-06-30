@@ -1,22 +1,23 @@
 #pragma once
 #include <WinSock2.h>
-#include <alljoyn_c/BusObject.h>
+
+class Server {
+
+public:
+
+	class NetworkModule
+	{
+
+		NetworkModule() {
+		}
+
+		~NetworkModule() {
 
 
-
-class NetworkModule
-{
-
-	NetworkModule() {
-
-	}
-
-	~NetworkModule() {
+		}
 
 
-		delete 
-	}
-
-	
-
+	};
+private:
+	Server* ServerNet = nullptr;
 };

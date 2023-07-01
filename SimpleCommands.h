@@ -2,6 +2,7 @@
 #include <iostream>
 #include <thread>
 #include <mutex>
+#include "CommandModule.h"
 std::mutex mtx;
 
 int Loader() {

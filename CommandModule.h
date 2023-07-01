@@ -15,6 +15,7 @@ public:
 			std::this_thread::sleep_for(std::chrono::milliseconds(2000));
 			system("cls");
 			std::cout << "\033[32m" << "Loading Network..." << "\033[0m" << std::endl;
+			Server* server = new Server();
 			return 1;
 		}
 

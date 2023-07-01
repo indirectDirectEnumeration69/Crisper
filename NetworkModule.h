@@ -60,7 +60,13 @@ public:
             }
             std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(2000));
             std::cout << "\033[32mServer is listening on port " << portNum << "...\033[0m\n";
-            std::this_thread::sleep_for(std::chrono::seconds(10));
+            std::this_thread::sleep_for(std::chrono::seconds(4));
+            //going to add server uptime ticker .^^^
+            //will add a menu list and so on and all the fancy stuff later.
+
+            std::cout << "\n" << "\033[31m" << "Please Select what you wish for the server to now do!" << "\033[0m\n";
+            UserInputRequired();
+            
             //here ill pull in additional modules to handle the server
             //and ill also add a command prompt to the server for specific actions on this port.
             closesocket(ListenSocket);
@@ -82,6 +88,29 @@ public:
                 ServerThread.join();
             }
         }
+
+
+    private: 
+        void commandInput(std::string cmdCommand) {
+            if (cmdCommand == "hello") {
+                std::cout << "Hello, user from server!\n";
+            }
+            else if (cmdCommand == "exit") {
+				std::cout << "Exiting...\n";
+			}
+            else {
+				std::cout << "Invalid command!\n";
+			}
+        }
+
+        void UserInputRequired() {
+            std::string UserInput;
+            do {
+                std::cout << "\033[31m" << "Input Server Command:" << "\033[0m";
+                std::cin >> UserInput;
+                commandInput(UserInput);
+            } while (UserInput != "exit");
+		}
     };
 
     class NetworkModule {

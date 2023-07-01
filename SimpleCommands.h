@@ -144,9 +144,9 @@ public:
         system("cls");
         std::cout << "Remember If you wish to use the advanced module type 'continue' (this will load the network module) \n" << std::endl;
         std::cout << "\n" << std::endl;
-        std::cout << "\033[31m" << "Input Command:" << "\033[0m";
         std::string command;
         do {
+            std::cout << "\033[31m" << "Input Command:" << "\033[0m";
             std::cin >> command;
             commandInput(command);
         } while (command != "exit");

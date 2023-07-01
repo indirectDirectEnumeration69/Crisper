@@ -1,3 +1,4 @@
+
 #pragma once
 #include <WinSock2.h>
 #include <iostream>
@@ -12,14 +13,11 @@ public:
         bool ServerRunning = false;
         std::thread ServerThread;
 
-        void ServerThreadFunc() {
-            std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(2000));
-            std::cout << "\033[32m" << "Server Thread Running..." << "\033[0m" << std::endl;
-
+        void ServerSetupFunc(const char* portNum) {
             WSADATA wsaData;
             int iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
             if (iResult != 0) {
-                std::cout << "WSAStartup failed: " << iResult << "\n";//adding exeception handlers.
+                std::cout << "WSAStartup failed: " << iResult << "\n";
                 return;
             }
 
@@ -31,7 +29,7 @@ public:
             hints.ai_protocol = IPPROTO_TCP;
             hints.ai_flags = AI_PASSIVE;
 
-            if (getaddrinfo(NULL, "8080", &hints, &result) != 0) {
+            if (getaddrinfo(NULL, portNum, &hints, &result) != 0) {
                 std::cout << "getaddrinfo failed\n";
                 WSACleanup();
                 return;
@@ -61,14 +59,24 @@ public:
                 return;
             }
             std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(2000));
-            std::cout <<"\033[32m"<<"Server is listening on port 8080..." << "\033[0m" << std::endl;
+            std::cout << "\033[32mServer is listening on port " << portNum << "...\033[0m\n";
             std::this_thread::sleep_for(std::chrono::seconds(10));
-
-           
+            //here ill pull in additional modules to handle the server
+            //and ill also add a command prompt to the server for specific actions on this port.
             closesocket(ListenSocket);
             WSACleanup();
-            std::cout <<  "\033[32m"<< "Server has shut down."<< "\033[0m"<<std::endl;
-        }//server thread function end.
+            std::cout << "\033[32mServer has shut down.\033[0m\n";
+        }
+
+        void UserInputFunc() {
+            std::string portNum;
+            std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(3000));
+            std::cout << "\n\033[32mNetwork has been Loaded\033[0m\n";
+            std::cout << "Enter a port number to use: ";
+            std::cin >> portNum;
+            ServerSetupFunc(portNum.c_str());
+        }
+
         ~ServerInst() {
             if (ServerThread.joinable()) {
                 ServerThread.join();
@@ -85,16 +93,15 @@ public:
             system("cls");
 
             if (ServerInstance.ServerRunning == false) {
-                std::cout << "\033[32m" << "Starting Server..." << "\033[0m" << std::endl;
-                ServerInstance.ServerThread = std::thread(&ServerInst::ServerThreadFunc, &ServerInstance);
+                std::cout << "\033[32mStarting Server...\033[0m\n";
+                ServerInstance.ServerThread = std::thread(&ServerInst::UserInputFunc, &ServerInstance);
                 ServerInstance.ServerRunning = true;
+                ServerInstance.ServerThread.join();
+                std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(3000));
             }
             else {
-                std::cout << "\033[31m" << "Server Already Running!" << "\033[0m" << std::endl;
+                std::cout << "\033[31mServer Already Running!\033[0m\n";
             }
-            std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(3000));
-            std::cout << "\n";
-            std::cout << "\033[32m" << "Network Loaded" << "\033[0m" << std::endl;
         }
 
         ~NetworkModule() {
@@ -103,6 +110,7 @@ public:
             }
         }
     };
+
 
     Server() {
         NetworkModule* Network = new NetworkModule();

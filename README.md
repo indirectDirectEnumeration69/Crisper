@@ -2,7 +2,7 @@
 Sub Project of a hopefully easy to use command line for multi user purposes.
 
 
--works correctly so far (building idea of layout for actual bigger project idea)
+-  Status: Compiles and works correctly.
 - Need to start mapping control flow.
 - polished threads handling user input , adding server commands.
 

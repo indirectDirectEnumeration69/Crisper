@@ -3,6 +3,7 @@ Sub Project -works correctly so far (building idea of layout for actual bigger p
 
 
 - Need to start mapping control flow.
+- polished threads handling user input , adding server commands.
 
 
 -------------------------------------------------------------------------------------------------

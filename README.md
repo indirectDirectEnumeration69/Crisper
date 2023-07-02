@@ -42,6 +42,13 @@ RoadMap (Currently not in order needs further details) :
 
 - 1. Work status (meaning when ill specifically be actively working on this project) : Current.
 
+--------
+Neural network model variants being considered
+--
+Reasons for each variant (pros & cons) :
+-
+-
+-
 ---------------
 Dependencies
 ----

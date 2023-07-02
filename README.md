@@ -23,8 +23,8 @@ Dependencies
 ----
 - C++ version : std 14
 ---------------
-- Debug Analysis:
-
+Debug Analysis:
+---
 -
 
 

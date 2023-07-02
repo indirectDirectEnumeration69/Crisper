@@ -55,8 +55,7 @@ Reasons for each variant (pros & cons) :
   
 
 -
--
--
+
 -
 
 FORMS OF NEURAL NETWORKS:

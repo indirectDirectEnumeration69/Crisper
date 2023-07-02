@@ -47,6 +47,7 @@ Neural network model variants being considered
 --
 Reasons for each variant (pros & cons) :
 
+----------
 - CNNs: 
 
 - 1. Details:
@@ -57,7 +58,7 @@ Reasons for each variant (pros & cons) :
 
 FORMS OF NEURAL NETWORKS:
 
--Machine Translation(trained on large data sets) : for user input.
+- Machine Translation(trained on large data sets) : for user input.
 
 - Image Processing(Process large sets of image based data) : for enhanced accuracy of target enviroment + additional infomation.
 

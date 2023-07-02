@@ -28,7 +28,8 @@ RoadMap (Currently not in order needs further details) :
 - 9.
 - 10.
 
-- Work status (meaning when ill specifically be actively working on this project) : Current.
+Work status (meaning when ill specifically be actively working on this project) : Current.
+
 ---------------
 Dependencies
 ----

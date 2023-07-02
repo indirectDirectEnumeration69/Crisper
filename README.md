@@ -74,10 +74,9 @@ Additionally ill list each hybrid model being considered after inital models are
 
 FORMS OF NEURAL NETWORKS:
 
-- Machine Translation(trained on large data sets) : for user input , language corpus sets for universal use based on users language.
-
 I am aware that machine translation accuracy for non latin language sets is biased and inaccurate especially chinese and japenese characters and understanding/interpretation of meaning , meaning through word2vec tokenization etc. 
 
+- Machine Translation(trained on large data sets) : for user input , language corpus sets for universal use based on users language.
 
 - Image Processing(Process large sets of image based data) : for enhanced accuracy of target enviroment + additional infomation.
 

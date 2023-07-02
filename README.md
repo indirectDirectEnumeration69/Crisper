@@ -21,6 +21,8 @@ Updates
 - 2.
 - 3.
 - 4. Add Neural network integration.
+- 5.
+- 6.
 
 - Work status (meaning when ill specifically be actively working on this project) : Current.
 ---------------

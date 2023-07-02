@@ -47,11 +47,20 @@ Neural network model variants being considered
 --
 Reasons for each variant (pros & cons) :
 
+-CNNs 
 -
 -
 -
 -
--
+
+FORMS OF NEURAL NETWORKS:
+
+-Machine Translation(trained on large data sets) : for user input.
+
+- Image Processing(Process large sets of image based data) : for enhanced accuracy of target enviroment + additional infomation.
+
+- LSTM VARIANTS (sequential data) : for processing request times , response analysis (signal processing) , pattern recognition of enviroment behaviour.
+
 ---------------
 Dependencies
 ----

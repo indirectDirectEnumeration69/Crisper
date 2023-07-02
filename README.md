@@ -64,6 +64,19 @@ FORMS OF NEURAL NETWORKS:
 
 - LSTM VARIANTS (sequential data) : for processing request times , response analysis (signal processing) , pattern recognition of enviroment behaviour.
 
+--------------
+ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future concerns)
+
+- before the botnet is eventually made and operational drawing and utilizing processing power and efficency is of upmost importance 
+
+- will need additional road map for this.
+
+-Neural network Obfuscated hosting and interaction:
+
+
+-----------------------------
+-Neural network Sub Road Map:
+
 ---------------
 Dependencies
 ----

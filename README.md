@@ -15,8 +15,8 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 Updates
 ---
 
--RoadMap: 
--Work status (meaning when ill specifically be actively working on this project) :  
+- RoadMap: 
+- Work status (meaning when ill specifically be actively working on this project) :  
 
 
 

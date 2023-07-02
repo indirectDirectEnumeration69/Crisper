@@ -43,15 +43,32 @@ RoadMap (Currently not in order needs further details) :
 - 1. Work status (meaning when ill specifically be actively working on this project) : Current.
 
 --------
-Neural network model variants being considered
+Neural network model variants being considered (matlabs , API's)
 --
 
 [ Reasons for each variant (pros & cons) ]
 
-==============CNS==========================
-- 1. Details:
+==================CNS====================
+- 1. Details: 
 - 2. Pros + Use Case:
 - 3. Cons + possible draw backs of use : 
+
+
+===============RNN=======================
+
+- 1. Details: 
+- 2. Pros + Use Case:
+- 3. Cons + possible draw backs of use : 
+
+==============HYBRID VARIANTS===============
+
+Hybrid models is where i will integrate multiple layers of different models and encoding techniques.
+
+- 1. Details: 
+- 2. Pros + Use Case:
+- 3. Cons + possible draw backs of use : 
+
+
 -----------------------
 
 FORMS OF NEURAL NETWORKS:

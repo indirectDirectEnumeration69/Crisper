@@ -12,10 +12,12 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 - polished threads handling user input , adding server commands.
 
 -------------------------------------------------------------------------
-RoadMap: 
--------
-Work status (meaning when ill specifically be actively working on this project) :  
--------
+Updates
+---
+
+-RoadMap: 
+-Work status (meaning when ill specifically be actively working on this project) :  
+
 
 
 -------------------------------------------------------------------------------------------------

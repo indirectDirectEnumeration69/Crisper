@@ -15,7 +15,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 - polished threads handling user input , adding server commands.
 
 
-- Useful note worth exploring in my journey of this project would also be advancements in hearing aids / hearing assistance through the use of neural networks in exploring and achieving natural sound for those with hearing impairments which would garner a side project when i come to explore this side topic. 
+- Useful note worth exploring in my journey of this project would also be advancements in hearing aids / hearing assistance through the use of neural networks in exploring and achieving natural sound for those with hearing impairments which would garner a side project when i come to explore this side topic in relation to consumer accessible hearing devices with neural calibration or other ideas involving neural networks in audio translation. 
 --------------------------------------------------------
 Goals
 -----

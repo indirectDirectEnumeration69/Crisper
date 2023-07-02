@@ -19,6 +19,9 @@ Updates
 - RoadMap: 
 - Work status (meaning when ill specifically be actively working on this project) : Current.
 
+Dependencies
+----
+- C++ version : std 14
 
 
 -------------------------------------------------------------------------------------------------

@@ -62,7 +62,7 @@ Neural network model variants being considered (matlabs , API's)
 
 ==============HYBRID VARIANTS===============
 
-Hybrid models is where i will integrate multiple layers of different models and encoding techniques.
+Hybrid models is where i will integrate multiple layers of different models as well as encoding techniques , decoding , back prop + calibration.
 
 - 1. Details: 
 - 2. Pros + Use Case:

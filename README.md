@@ -12,6 +12,14 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 - Need to start mapping control flow.
 - polished threads handling user input , adding server commands.
 
+--------------------------------------------------------
+Goals
+-----
+
+-
+-
+-
+-
 -------------------------------------------------------------------------
 Updates
 ---
@@ -27,6 +35,10 @@ RoadMap (Currently not in order needs further details) :
   8. Add Neural network integration.
   9.
   10.
+  11.
+  12.
+  13.
+  14.
 
 Work status (meaning when ill specifically be actively working on this project) : Current.
 

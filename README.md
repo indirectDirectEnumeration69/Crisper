@@ -5,7 +5,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 -  Status: Compiles and works correctly.
 
-- Organising into payloads for specific use cases operating systems , web browsers , specific enviroments.
+- Organising into payloads for specific use cases operating systems , web browsers , specific environments.
 
 - end date is unknown however during my free time this project will constantly be expanded upon till its good enough for others to contribute upon my inital ideas and implementation.
 
@@ -14,6 +14,8 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 - Need to start mapping control flow.
 - polished threads handling user input , adding server commands.
 
+
+-Useful note worth exploring in my journey of this project would also be advancements in hearing aids / hearing assistance through the use of neural networks in exploring and achieving natural sound for those with hearing impairments which would garner a side project when i come to explore this side topic. 
 --------------------------------------------------------
 Goals
 -----

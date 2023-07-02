@@ -17,10 +17,10 @@ Updates
 ---
 
 - RoadMap:
-- 1.
-- 2.
-- 3.
-- 4. Add Neural network integration.
+1.
+2.
+3.
+4. Add Neural network integration.
 
 - Work status (meaning when ill specifically be actively working on this project) : Current.
 ---------------

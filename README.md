@@ -97,7 +97,7 @@ ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future conce
 -----------------------------
 As i understand neural networks are rather complex they will require additional sub road maps during this project.
 
--Neural network Sub Road Map:
+Neural network Sub Road Map:
 -------------------------------
 [Start]
 - Data collection: 

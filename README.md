@@ -7,6 +7,8 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 - Organising into payloads for specific use cases operating systems , web browsers , specific enviroments.
 
+- end date is unknown however during my free time this project will constantly be expanded upon till its good enough for others to contribute upon my inital ideas and implementation.
+
 - Creating branches for experimentation. 
 - My other project ideas and repos will be integrated into this project.
 - Need to start mapping control flow.

@@ -45,11 +45,11 @@ RoadMap (Currently not in order needs further details) :
 --------
 Neural network model variants being considered
 --
-Reasons for each variant (pros & cons) :
 
-----------
+Reasons for each variant (pros & cons)
+
+--------
 - CNNs: 
-
 - 1. Details:
 - 2. Pros + Use Case:
 - 3. Cons + possible draw backs of use : 

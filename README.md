@@ -21,7 +21,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 Goals
 -----
 
--
+- for tonight - > make extensive server commands work correctly.
 -
 -
 - 

@@ -15,7 +15,7 @@ Updates
 ---
 
 - RoadMap: 
-- Work status (meaning when ill specifically be actively working on this project) : Current
+- Work status (meaning when ill specifically be actively working on this project) : Current.
 
 
 

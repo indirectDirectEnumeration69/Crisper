@@ -53,6 +53,7 @@ Reasons for each variant (pros & cons) :
 - 2. Pros + Use Case:
 - 3. Cons + possible draw backs of use : 
   
+-----------------------
 
 FORMS OF NEURAL NETWORKS:
 

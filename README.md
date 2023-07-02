@@ -35,7 +35,7 @@ Modules List
 -
 
 -------------------------------------------------------
-Server functionality and commands added
+Server functionality and commands added (33 commands so far)
 --
 -
 -

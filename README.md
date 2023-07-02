@@ -47,9 +47,11 @@ Neural network model variants being considered
 --
 Reasons for each variant (pros & cons) :
 
-- CNNs: Details:
-        Pros + Use Case:
-        Cons + possible draw backs of use : 
+- CNNs: 
+
+Details:
+Pros + Use Case:
+Cons + possible draw backs of use : 
   
 
 -

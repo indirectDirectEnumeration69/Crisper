@@ -97,8 +97,8 @@ As i understand neural networks are rather complex they will require additional 
 
 -Neural network Sub Road Map:
 
-1.
-2.
+1.Data collection : 
+2. Model Training and adaption techniques :
 3.
 4.
 5.
@@ -114,6 +114,9 @@ Debug Analysis:
 - Control Flow: [] -> -> -> -> []
 
 - Unexpected Behaviour:
+
+-RoadBlocks/Issues: None currently.
+
 -----------
 Licenses
 ----

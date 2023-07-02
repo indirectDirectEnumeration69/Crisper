@@ -5,7 +5,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 - Organising into payloads for specific use cases operating systems , web browsers , specific enviroments.
 
-- Creating Branches for experimentation. 
+- Creating branches for experimentation. 
 - My other project ideas and repos will be integrated into this project.
 - Need to start mapping control flow.
 - polished threads handling user input , adding server commands.

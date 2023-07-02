@@ -17,7 +17,7 @@ Updates
 ---
 
 RoadMap (Currently not in order needs further details) :
-- 1. Finish and refine server logic
+  1. Finish and refine server logic
 - 2. Add server commands 
 - 3. Integrate further thread handling.
 - 4. Add additional needed libraries.

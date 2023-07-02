@@ -84,7 +84,7 @@ FORMS OF NEURAL NETWORKS:
 ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future concerns)
 
 
-- before the botnet is eventually made and operational drawing and utilizing processing power and efficency is of upmost importance 
+- before the botnet is eventually made and operational, drawing and utilizing processing power and efficency is of upmost importance 
 
 - will need additional road map for this.
 

@@ -16,14 +16,14 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 Updates
 ---
 
-- RoadMap:
-- 1.
-- 2.
-- 3.
-- 4.
-- 5.
-- 6.
-- 7.
+- RoadMap (Currently not in order needs further details) :
+- 1. Finish and refine server logic
+- 2. Add server commands 
+- 3. Integrate further thread handling.
+- 4. Add additional needed libraries.
+- 5. Add dependency check functionality , automate some dependencies.
+- 6. Finish validation and make it dynamic , integrate hash encryption
+- 7. 
 - 8. Add Neural network integration.
 - 9.
 - 10.

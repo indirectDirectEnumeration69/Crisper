@@ -32,8 +32,8 @@ RoadMap (Currently not in order needs further details) :
   5.  Add dependency check functionality , automate some dependencies.
   6.  Finish validation and make it dynamic , integrate hash encryption.
   7.  Structure Files.
-  8.  Add Neural network integration.
-  9.
+  8.  Setup Database.
+  9.  Add Neural network integration.
   10.
   11.
   12.

@@ -67,6 +67,7 @@ FORMS OF NEURAL NETWORKS:
 --------------
 ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future concerns)
 
+
 - before the botnet is eventually made and operational drawing and utilizing processing power and efficency is of upmost importance 
 
 - will need additional road map for this.
@@ -75,7 +76,17 @@ ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future conce
 
 
 -----------------------------
+As i understand neural networks are rather complex they will require additional sub road maps during this project.
+
+
 -Neural network Sub Road Map:
+
+1.
+2.
+3.
+4.
+5.
+6.
 
 ---------------
 Dependencies

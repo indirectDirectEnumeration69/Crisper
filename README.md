@@ -25,14 +25,14 @@ Updates
 ---
 
 RoadMap (Currently not in order needs further details) :
-  1. Finish and refine server logic
-  2. Add server commands 
-  3. Integrate further thread handling.
-  4. Add additional needed libraries.
-  5. Add dependency check functionality , automate some dependencies.
-  6. Finish validation and make it dynamic , integrate hash encryption
+  1.  Finish and refine server logic
+  2.  Add server commands 
+  3.  Integrate further thread handling.
+  4.  Add additional needed libraries.
+  5.  Add dependency check functionality , automate some dependencies.
+  6.  Finish validation and make it dynamic , integrate hash encryption
   7. 
-  8. Add Neural network integration.
+  8.  Add Neural network integration.
   9.
   10.
   11.
@@ -40,7 +40,7 @@ RoadMap (Currently not in order needs further details) :
   13.
   14.
 
-Work status (meaning when ill specifically be actively working on this project) : Current.
+## Work status (meaning when ill specifically be actively working on this project) : Current.
 
 ---------------
 Dependencies

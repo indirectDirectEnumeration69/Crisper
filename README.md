@@ -49,9 +49,9 @@ Reasons for each variant (pros & cons) :
 
 - CNNs: 
 
-Details:
-Pros + Use Case:
-Cons + possible draw backs of use : 
+- 1. Details:
+- 2. Pros + Use Case:
+- 3. Cons + possible draw backs of use : 
   
 
 -

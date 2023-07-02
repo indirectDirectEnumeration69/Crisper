@@ -16,7 +16,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 Updates
 ---
 
-- RoadMap (Currently not in order needs further details) :
+RoadMap (Currently not in order needs further details) :
 - 1. Finish and refine server logic
 - 2. Add server commands 
 - 3. Integrate further thread handling.

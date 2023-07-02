@@ -91,7 +91,7 @@ ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future conce
 
 - will need additional road map for this.
 
--Neural network Obfuscated hosting and interaction:
+- Neural network Obfuscated hosting and interaction:
 
 
 -----------------------------

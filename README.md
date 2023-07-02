@@ -99,9 +99,10 @@ As i understand neural networks are rather complex they will require additional 
 
 
 -Neural network Sub Road Map:
+
 [Start]
--Data collection: 
--Model Training and adaption techniques:
+- Data collection: 
+- Model Training and adaption techniques:
 -
 -
 -

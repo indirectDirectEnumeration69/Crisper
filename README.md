@@ -54,10 +54,6 @@ Reasons for each variant (pros & cons) :
 - 3. Cons + possible draw backs of use : 
   
 
--
-
--
-
 FORMS OF NEURAL NETWORKS:
 
 -Machine Translation(trained on large data sets) : for user input.

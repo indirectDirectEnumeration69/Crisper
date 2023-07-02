@@ -11,6 +11,12 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 - Need to start mapping control flow.
 - polished threads handling user input , adding server commands.
 
+-------------------------------------------------------------------------
+RoadMap: 
+-------
+Work status (meaning when ill specifically be actively working on this project) :  
+-------
+
 
 -------------------------------------------------------------------------------------------------
 ![CRISPER2](https://raw.githubusercontent.com/indirectDirectEnumeration69/Crisper/main/CRISPER2.png)

@@ -1,6 +1,5 @@
 # Crisper
 Sub Project of a hopefully easy to use command line for multi user purposes.
-------------------------------------------------------------------------------
 
 -  Status: Compiles and works correctly.
 

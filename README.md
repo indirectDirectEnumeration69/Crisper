@@ -55,6 +55,8 @@ Debug Analysis:
 Licenses
 ----
 
+- Being decided will be updated at a later date.
+
 -------------------------------------------------------------------------------------------------
 ![CRISPER2](https://raw.githubusercontent.com/indirectDirectEnumeration69/Crisper/main/CRISPER2.png)
 

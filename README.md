@@ -49,11 +49,13 @@ Neural network model variants being considered
 Reasons for each variant (pros & cons)
 
 --------
-- CNNs: 
+- CNNs:
+
+==============CNS==========================
 - 1. Details:
 - 2. Pros + Use Case:
 - 3. Cons + possible draw backs of use : 
-  
+========================================
 -----------------------
 
 FORMS OF NEURAL NETWORKS:

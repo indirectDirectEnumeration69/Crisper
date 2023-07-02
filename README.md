@@ -3,7 +3,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 - Start Date🕙: 30/06/2023.
 
--  Status: Compiles and works correctly - working on server commands now.
+-  Status: Compiles and works correctly - working on server commands now - adding user help module.
 
 - Organising into payloads for specific use cases operating systems , web browsers , specific environments.
 

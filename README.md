@@ -46,7 +46,7 @@ RoadMap (Currently not in order needs further details) :
 Neural network model variants being considered
 --
 
-Reasons for each variant (pros & cons)
+[ Reasons for each variant (pros & cons) ]
 
 ==============CNS==========================
 - 1. Details:

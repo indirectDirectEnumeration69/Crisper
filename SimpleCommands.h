@@ -21,7 +21,7 @@ int Loader() {
     std::thread* SecretThreads = new std::thread[5];
 
     for (int i = 0; i < 5; i++) {
-
+        //going to refactor alot so its more efficent on compile time.
         SecretThreads[i] = std::thread([i, Secret]() {
             mtx.lock();
             std::cout << "Thread " << i << ": " << Secret[i] << std::endl;
@@ -129,6 +129,9 @@ public:
         }
         else if (cmdCommand == "continue") {
             CommandModule* cmdModule = new CommandModule();
+        }
+        else if (cmdCommand == "exit") {
+            exit(0);
         }
         else {
             std::cout << "Command not recognized. Try 'help' to get the list of available commands.\n";

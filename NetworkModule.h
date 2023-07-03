@@ -4,6 +4,8 @@
 #include <thread>
 #include <chrono>
 #include <WS2tcpip.h>
+#include "ServerCommandList.h"
+#include "CommandFunctionality.h"
 #pragma comment(lib, "ws2_32.lib")
 
 class Server {
@@ -11,6 +13,7 @@ public:
     struct ServerInst {
         bool ServerRunning = false;
         std::thread ServerThread;
+        bool stopFlag = false;
 
         void ServerSetupFunc(const char* portNum) {
             WSADATA wsaData;
@@ -71,6 +74,8 @@ public:
             closesocket(ListenSocket);
             WSACleanup();
             std::cout << "\033[32mServer has shut down.\033[0m\n";
+            std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(1250));
+            system("cls");
         }
 
         void UserInputFunc() {
@@ -88,27 +93,32 @@ public:
             }
         }
 
-
+        //user enters a command server command header retrieves commands.
     private: 
         void commandInput(std::string cmdCommand) {
-            if (cmdCommand == "hello") {
-                std::cout << "Hello, user from server!\n";
-            }
-            else if (cmdCommand == "exit") {
-				std::cout << "Exiting...\n";
-			}
-            else {
-				std::cout << "Invalid command!\n";
-			}
-        }
 
+            ServerCommands* ServerCommand = new ServerCommands();
+            ServerCommandFunctionality* servercomfun = new ServerCommandFunctionality();
+          
+            //USER INPUT -> CALLS FUNC FROM HEADER.
+            //could enum a switch up for this?
+            if (cmdCommand == "Stop" || cmdCommand == "Exit") {
+                //call server funcs here.
+                servercomfun->stop();
+                stopFlag = true;
+            }
+            else {
+                std::cout << "Invalid command!\n";
+            }
+        }
+        
         void UserInputRequired() {
             std::string UserInput;
             do {
-                std::cout << "\033[31m" << "Input Server Command:" << "\033[0m";
+                std::cout << "\033[32m" << "Input Server Command:" << "\033[0m";
                 std::cin >> UserInput;
                 commandInput(UserInput);
-            } while (UserInput != "exit");
+            } while (!stopFlag);
 		}
     };
 

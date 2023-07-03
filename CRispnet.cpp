@@ -4,8 +4,6 @@
 #include "SimpleCommands.h"
 
 
-
-
 int main() {
     Commands* commander = new Commands();
     commander->cmdprompt();

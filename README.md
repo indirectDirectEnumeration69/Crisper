@@ -61,7 +61,7 @@ Goals
 -----
 
 - make extensive server commands work correctly.
--
+- make commands use polymorphism instead of the dirty if chain.
 -
 - 
 -------------------------------------------------------------------------

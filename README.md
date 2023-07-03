@@ -60,7 +60,7 @@ Server functionality and commands added (33 commands so far)
 Goals
 -----
 
-- for tonight - > make extensive server commands work correctly.
+- make extensive server commands work correctly.
 -
 -
 - 

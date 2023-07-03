@@ -70,6 +70,8 @@ class ServerCommands {
 				commands.insert("Running ports");
 				commands.insert("my details");
 				commands.insert("my commands");
+				commands.insert("Add command");
+				commands.insert("Remove Command");
 				commands.insert("module list");
 				commands.insert("Server Uptime");
 			}

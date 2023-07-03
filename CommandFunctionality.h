@@ -7,18 +7,6 @@
 #include <mutex>
 #include <shared_mutex>
 
-/*
-            if (cmdCommand == "hello") {
-                std::cout << "Hello, user from server!\n";
-            }
-            else if (cmdCommand == "exit") {
-                std::cout << "Exiting...\n";
-            }
-            else {
-                std::cout << "Invalid command!\n";
-            }
-            */
-
 class ServerCommandFunctionality {
 public:
     void stop() {

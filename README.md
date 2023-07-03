@@ -11,7 +11,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 - Creating branches for experimentation. 
 - My other project ideas and repos will be integrated into this project.
-- Need to start mapping control flow.
+- Need to start mapping control flow and organise files.
 - polished threads handling user input , adding server commands.
 
 

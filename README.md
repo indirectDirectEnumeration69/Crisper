@@ -279,7 +279,7 @@ Payload Features:
 
 Known CSV's:
 
-- 1.
+- 1:
 
 [Year] :
 
@@ -288,7 +288,7 @@ Known CSV's:
 [Use case]:
 
 
-- 2.
+- 2:
 
 [Year] :
 

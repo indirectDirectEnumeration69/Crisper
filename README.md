@@ -18,13 +18,17 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 - Useful note worth exploring in my journey of this project would also be advancements in hearing aids / hearing assistance through the use of neural networks in exploring and achieving natural sound for those with hearing impairments which would garner a side project when i come to explore this side topic in relation to consumer accessible hearing devices with neural calibration or other ideas involving neural networks in audio translation , i understand this already exists however i wish to also explore this topic of interest and try and contribute to this area of development.
 - possibly could try to find better ways to reduce costs throughout the manufacturing process with more efficient techniques and further pursuit of incorporating ai and technological advancements.
 
+----------------------------
+Diagrams of neural variants : 
+
+
 
 ---------------------------------
 Branch List:
 ---
 - Server Branch:
 ------------------------------------------------------
-Modules List
+Modules List & Sub Modules
 --
 
 -
@@ -62,6 +66,13 @@ Server Helper functions:
 -
 -
 
+# Thread Logic (server) : 
+
+Server Thread modules:
+
+-
+-
+ 
 --------------------------------------------------------
 Goals
 -----
@@ -154,10 +165,22 @@ Data Preprocessing Logic:
 - 2.
 - 3.
 
+Specific model fomatting:
+
+-
+-
+-
+
 HelperFunctions Logic: 
 
 - 1.
 - 2.
+
+Optimization features:
+
+-
+- 
+-
 
 Neural network Sub Road Map:
 -------------------------------

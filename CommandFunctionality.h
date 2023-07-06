@@ -7,8 +7,15 @@
 #include <mutex>
 #include <shared_mutex>
 #include <string>
+#include "Details.h"
+#include <atomic>
 class ServerCommandFunctionality {
+private:
+    std::mutex mtx;
+    std::condition_variable cv;
+    std::atomic<bool> pause_thread = false;
 public:
+
     void stop() {
         system("cls");
         std::cout << "\033[32m"<<"Now stopping...."<< "\033[0m"<<"\n";
@@ -29,11 +36,22 @@ public:
     }
 
     void pause() {
-        SuspendThread(std::this_thread::get_id); //adding more conditions and logic
+        std::unique_lock<std::mutex> lock(mtx);
+        pause_thread = true;
+        std::cout << "Thread " << std::this_thread::get_id() << " is pausing" << std::endl;
+        cv.wait(lock, [&]() { return !pause_thread; });
+        std::cout << "Thread " << std::this_thread::get_id() << " has resumed" << std::endl;
+    }
+
+    void resume() {
+        std::lock_guard<std::mutex> lock(mtx);
+        pause_thread = false;
+        cv.notify_all();
     }
 
     void details() {
         
+
     }
 
     void help() {

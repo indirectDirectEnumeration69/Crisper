@@ -56,6 +56,12 @@ Server functionality and commands added (33 commands so far)
 -
 -
 
+Server Helper functions:
+
+-
+-
+-
+
 --------------------------------------------------------
 Goals
 -----
@@ -147,6 +153,11 @@ Data Preprocessing Logic:
 - 1.
 - 2.
 - 3.
+
+HelperFunctions Logic: 
+
+-1.
+-2.
 
 Neural network Sub Road Map:
 -------------------------------

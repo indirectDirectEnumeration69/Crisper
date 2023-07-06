@@ -24,15 +24,13 @@ public:
     }
 
     bool continueCmd() {
-        bool doContinue = false;
         std::string CaptureUserInput = "";
         std::cout << "\033[32m" << "Do you wish to continue?" << "\033[0m" << "\n";
         std::cin >> CaptureUserInput;
-        //neural network for machine translation will be used here instead of manual normalizaion.
-        if (CaptureUserInput == "yes" || "Yes") {
-            return doContinue = true;
+        if (CaptureUserInput == "yes" || CaptureUserInput == "Yes") {
+            return true;
         }
-        else return doContinue = false;
+        else return false;
     }
 
     void pause() {

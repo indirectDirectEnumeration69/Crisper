@@ -95,6 +95,7 @@ public:
 
         //user enters a command server command header retrieves commands.
         //each command for optimisation will be handled by seperate classes.
+        //base class default with sub classes for each command.
     private:
         void commandInput(std::string cmdCommand) {
             ServerCommands* ServerCommand = new ServerCommands();
@@ -105,7 +106,12 @@ public:
                 stopFlag = true;
             }
             else if (cmdCommand == "Continue") {
-                servercomfun->continueCmd();
+                bool ContinueStat{};
+                servercomfun->continueCmd() >> ContinueStat;
+
+                if (ContinueStat == false) {
+                    servercomfun->pause();
+                }
             }
             else if (cmdCommand == "Pause") {
                 servercomfun->pause();

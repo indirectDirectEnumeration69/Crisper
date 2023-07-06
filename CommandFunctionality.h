@@ -6,7 +6,7 @@
 #include <WS2tcpip.h>
 #include <mutex>
 #include <shared_mutex>
-
+#include <string>
 class ServerCommandFunctionality {
 public:
     void stop() {
@@ -16,12 +16,20 @@ public:
         system("cls");
     }
 
-    void continueCmd() {
-      
+    bool continueCmd() {
+        bool doContinue = false;
+        std::string CaptureUserInput = "";
+        std::cout << "\033[32m" << "Do you wish to continue?" << "\033[0m" << "\n";
+        std::cin >> CaptureUserInput;
+        //neural network for machine translation will be used here instead of manual normalizaion.
+        if (CaptureUserInput == "yes" || "Yes") {
+            return doContinue = true;
+        }
+        else return doContinue = false;
     }
 
     void pause() {
-      
+        SuspendThread(std::this_thread::get_id); //adding more conditions and logic
     }
 
     void details() {

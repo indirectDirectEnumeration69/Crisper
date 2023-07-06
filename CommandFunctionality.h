@@ -22,7 +22,7 @@ public:
         std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(1800));
         system("cls");
     }
-
+    //input normalization will be done with neural network at a later date.
     bool continueCmd() {
         std::string CaptureUserInput = "";
         std::cout << "\033[32m" << "Do you wish to continue?" << "\033[0m" << "\n";
@@ -46,10 +46,10 @@ public:
         pause_thread = false;
         cv.notify_all();
     }
-
+    //experimenting about with this
     void details() {
-        
-
+        Details<std::thread> ThreadDetails;
+        Details<int>ThreadCount;
     }
 
     void help() {

@@ -156,8 +156,8 @@ Data Preprocessing Logic:
 
 HelperFunctions Logic: 
 
--1.
--2.
+- 1.
+- 2.
 
 Neural network Sub Road Map:
 -------------------------------

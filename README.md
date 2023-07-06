@@ -200,6 +200,101 @@ Neural network Sub Road Map:
 -
 [End]
 
+---------------------
+Payloads Section
+--
+
+Mapped payloads to specific enviroments:
+
+
+
+[OS] : 
+
+
+-- Unix Systems -- 
+
+  Distributions:
+
+
+  - Linux distros -- 
+  
+ - Ubuntu - > versions.
+ - Parrot os - > versions.
+ -
+ -
+ -
+ 
+
+  Archs:
+  
+ -
+ -
+ -
+
+
+ -- Windows -- 
+
+[Windows 11]
+
+-
+-
+
+[Windows 10]
+
+Versions:
+
+-
+-
+-
+-
+
+Features of windows 10 which can be exploited [version specific] :
+
+-
+-
+-
+-
+
+Payload mechanisms:
+
+-
+-
+
+Payload Features:
+
+-
+-
+
+- Process allocation techniques:
+
+-
+-
+
+
+- Evasion:
+
+-
+-
+- 
+
+Known CSV's:
+
+1.
+Year :
+Enviroment: 
+Use case:
+
+2.
+Year :
+Enviroment: 
+Use case:
+
+
+[could provide a database model and link to show all csv's being used]
+
+-excel 
+
+-
 ---------------
 Dependencies
 ----

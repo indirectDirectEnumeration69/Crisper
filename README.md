@@ -153,6 +153,7 @@ I am aware that machine translation accuracy for non latin language sets is bias
 ISSUES REGARDING PROCESSING POWER AND NEURAL NETWORK CLOUD HOSTING (Future concerns)
 
 
+- Google cloud hosting?
 - before the botnet is eventually made and operational, drawing and utilizing processing power and efficency is of upmost importance 
 
 - will need additional road map for this.

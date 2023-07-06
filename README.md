@@ -85,6 +85,7 @@ Goals
 
 - make extensive server commands work correctly.
 - make commands use polymorphism instead of the dirty if chain.
+- leading onto oop optimisation of commands for easier maintainability and scalability.
 -
 - 
 -------------------------------------------------------------------------

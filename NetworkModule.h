@@ -95,7 +95,8 @@ public:
 
         //user enters a command server command header retrieves commands.
         //each command for optimisation will be handled by seperate classes.
-        //base class default with sub classes for each command.
+        //base class default with sub classes for each command.|
+	//Optimising as soon as commands and etc are finished. v
     private:
         void commandInput(std::string cmdCommand) {
             ServerCommands* ServerCommand = new ServerCommands();

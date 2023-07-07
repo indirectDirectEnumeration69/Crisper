@@ -168,25 +168,25 @@ As i understand neural networks are rather complex they will require additional 
 ------------------
 Data Preprocessing Logic:
 --
+[preprocessing Steps]
 
-- 1.
-- 2.
-- 3.
-
-============================]
+-
+- 
+- 
+-
+-
+-
+-
 
 [Batch Size & Processing optimisations:]
-
-
 [Ideas]:
-
 Ideas on batch optimisation of training data:
 
 -
 -
 -
 
-===========================]
+[===========]
 
 Specific model fomatting:
 

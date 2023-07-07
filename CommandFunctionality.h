@@ -18,7 +18,7 @@ public:
 
     void stop() {
         system("cls");
-        std::cout << "\033[32m"<<"Now stopping...."<< "\033[0m"<<"\n";
+        std::cout << "\033[32m" << "Now stopping...." << "\033[0m" << "\n";
         std::this_thread::sleep_for(std::chrono::duration<int, std::milli>(1800));
         system("cls");
     }
@@ -53,119 +53,118 @@ public:
     }
 
     void help() {
-        
+
     }
 
     void back() {
-       
+
     }
 
     void runningThreads() {
-        
+
     }
 
     void module() {
-       
+
     }
 
     void neuralStat() {
-        
+
     }
 
     void commandList() {
-        
+
     }
 
     void createServer() {
-       
+
     }
 
     void serverStatus() {
-       
+
     }
 
     void changeModule() {
-        
+
     }
 
     void changeServer() {
-       
+
     }
 
     void changeNeuralNetwork() {
-        
+
     }
 
     void serverList() {
-        
+
     }
 
     void serverDetails() {
-       
+
     }
 
     void serverCommands() {
-        
+
     }
 
     void attachModule() {
-        
+
     }
 
     void options() {
-      
+
     }
 
     void payloadOptions() {
-       
+
     }
 
     void payloadList() {
-        
+
     }
 
     void run() {
-       
+
     }
 
     void exitCmd() {
-        
+
     }
 
     void displayServerMessages() {
-       
+
     }
 
     void hideServerMessages() {
-       
+
     }
 
     void displayServerErrors() {
-       
+
     }
 
     void fix() {
-       
+
     }
 
     void runningPorts() {
-      
+
     }
 
     void myDetails() {
-      
+
     }
 
     void myCommands() {
-      
+
     }
 
     void moduleList() {
-     
+
     }
 
     void serverUptime() {
-        
+
     }
 };
-

@@ -4,9 +4,9 @@
 #include <thread>
 #include <threadpoolapiset.h>
 class ServerCommands {
-
+public:
 	struct CommandList {
-		
+	public:
 		bool commandsAdded = false;
 
 

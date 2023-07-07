@@ -4,8 +4,7 @@
 #include <thread>
 #include <chrono>
 #include <WS2tcpip.h>
-#include "ServerCommandList.h"
-#include "CommandFunctionality.h"
+#include "ServerUserInput.h"
 #pragma comment(lib, "ws2_32.lib")
 
 class Server {
@@ -13,8 +12,7 @@ public:
     struct ServerInst {
         bool ServerRunning = false;
         std::thread ServerThread;
-        bool stopFlag = false;
-
+     
         void ServerSetupFunc(const char* portNum) {
             WSADATA wsaData;
             int iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
@@ -67,8 +65,9 @@ public:
             //will add a menu list and so on and all the fancy stuff later.
 
             std::cout << "\n" << "\033[31m" << "Please Select what you wish for the server to now do!" << "\033[0m\n";
-            UserInputRequired();
             
+            CallUser();
+       
             //here ill pull in additional modules to handle the server
             //and ill also add a command prompt to the server for specific actions on this port.
             closesocket(ListenSocket);
@@ -95,129 +94,14 @@ public:
 
         //user enters a command server command header retrieves commands.
         //each command for optimisation will be handled by seperate classes.
-        //base class default with sub classes for each command.|
-	//Optimising as soon as commands and etc are finished. v
-    private:
-        void commandInput(std::string cmdCommand) {
-            ServerCommands* ServerCommand = new ServerCommands();
-            ServerCommandFunctionality* servercomfun = new ServerCommandFunctionality();
-
-            if (cmdCommand == "Stop" || cmdCommand == "Exit") {
-                servercomfun->stop();
-                stopFlag = true;
-            }
-            else if (cmdCommand == "Continue") {
-                bool ContinueStat = servercomfun->continueCmd();
-
-                if (ContinueStat == false) {
-                    servercomfun->pause();
-                }
-            }
-            else if (cmdCommand == "Pause") {
-                servercomfun->pause();
-            }
-            else if (cmdCommand == "Details") {
-                servercomfun->details();
-            }
-            else if (cmdCommand == "Help") {
-                servercomfun->help();
-            }
-            else if (cmdCommand == "Back") {
-                servercomfun->back();
-            }
-            else if (cmdCommand == "running threads") {
-                servercomfun->runningThreads();
-            }
-            else if (cmdCommand == "Module") {
-                servercomfun->module();
-            }
-            else if (cmdCommand == "Neural stat") {
-                servercomfun->neuralStat();
-            }
-            else if (cmdCommand == "CommandList") {
-                servercomfun->commandList();
-            }
-            else if (cmdCommand == "Create Server") {
-                servercomfun->createServer();
-            }
-            else if (cmdCommand == "Server status") {
-                servercomfun->serverStatus();
-            }
-            else if (cmdCommand == "change module") {
-                servercomfun->changeModule();
-            }
-            else if (cmdCommand == "change server") {
-                servercomfun->changeServer();
-            }
-            else if (cmdCommand == "change neural network") {
-                servercomfun->changeNeuralNetwork();
-            }
-            else if (cmdCommand == "Server list") {
-                servercomfun->serverList();
-            }
-            else if (cmdCommand == "Server details") {
-                servercomfun->serverDetails();
-            }
-            else if (cmdCommand == "Server commands") {
-                servercomfun->serverCommands();
-            }
-            else if (cmdCommand == "Attach module") {
-                servercomfun->attachModule();
-            }
-            else if (cmdCommand == "Options") {
-                servercomfun->options();
-            }
-            else if (cmdCommand == "Payload Options") {
-                servercomfun->payloadOptions();
-            }
-            else if (cmdCommand == "Payload List") {
-                servercomfun->payloadList();
-            }
-            else if (cmdCommand == "Run") {
-                servercomfun->run();
-            }
-            else if (cmdCommand == "display server messages") {
-                servercomfun->displayServerMessages();
-            }
-            else if (cmdCommand == "hide server messages") {
-                servercomfun->hideServerMessages();
-            }
-            else if (cmdCommand == "display server errors") {
-                servercomfun->displayServerErrors();
-            }
-            else if (cmdCommand == "Fix") {
-                servercomfun->fix();
-            }
-            else if (cmdCommand == "Running ports") {
-                servercomfun->runningPorts();
-            }
-            else if (cmdCommand == "my details") {
-                servercomfun->myDetails();
-            }
-            else if (cmdCommand == "my commands") {
-                servercomfun->myCommands();
-            }
-            else if (cmdCommand == "module list") {
-                servercomfun->moduleList();
-            }
-            else if (cmdCommand == "Server Uptime") {
-                servercomfun->serverUptime();
-            }
-            else {
-                std::cout << "Command not recognized, please try again." << std::endl;
-            }
-            delete ServerCommand;
-            delete servercomfun;
-        }
+        //base class default with sub classes for each command.
+        //need to restructure this
+    private: 
+        UserInput UserInputs;
         
-        void UserInputRequired() {
-            std::string UserInput;
-            do {
-                std::cout << "\033[32m" << "Input Server Command:" << "\033[0m";
-                std::cin >> UserInput;
-                commandInput(UserInput);
-            } while (!stopFlag);
-		}
+        void CallUser() {
+            UserInputs.UserInputRequired();
+        }
     };
 
     class NetworkModule {

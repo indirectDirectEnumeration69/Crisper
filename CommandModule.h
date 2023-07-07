@@ -16,6 +16,7 @@ public:
 			system("cls");
 			std::cout << "\033[32m" << "Loading Network..." << "\033[0m" << std::endl;
 			Server* server = new Server();
+			delete server;
 			return 1;
 		}
 

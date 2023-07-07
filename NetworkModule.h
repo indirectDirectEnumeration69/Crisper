@@ -106,8 +106,7 @@ public:
                 stopFlag = true;
             }
             else if (cmdCommand == "Continue") {
-                bool ContinueStat{};
-                servercomfun->continueCmd() >> ContinueStat;
+                bool ContinueStat = servercomfun->continueCmd();
 
                 if (ContinueStat == false) {
                     servercomfun->pause();
@@ -206,6 +205,8 @@ public:
             else {
                 std::cout << "Command not recognized, please try again." << std::endl;
             }
+            delete ServerCommand;
+            delete servercomfun;
         }
         
         void UserInputRequired() {

@@ -181,7 +181,7 @@ Data Preprocessing Logic:
 [Batch Size & Processing optimisations:]
 [Ideas]:
 
--Ideas on batch optimisation of training data:
+- Ideas on batch optimisation of training data:
 
 -
 -

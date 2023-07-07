@@ -178,25 +178,31 @@ Data Preprocessing Logic:
 -
 -
 
+======================================
 [Batch Size & Processing optimisations:]
 
--[Ideas]:
+- [Ideas]:
+
 Ideas on batch optimisation of training data:
 
+1.
+2.
+3.
 
-[===========]
-
+=========================
 Specific model fomatting:
 
 -
 -
 -
 
+======================
 HelperFunctions Logic: 
 
 - 1.
 - 2.
 
+======================
 Optimization features:
 
 -

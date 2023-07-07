@@ -13,6 +13,7 @@ public:
         ServerCommands::CommandList* CommandsList = new ServerCommands::CommandList();
         ServerCommandFunctionality* servercomfun = new ServerCommandFunctionality();
 
+
         if (cmdCommand == "Stop" || cmdCommand == "Exit") {
             servercomfun->stop();
             stopFlag = true;
@@ -117,7 +118,7 @@ public:
         else {
             std::cout << "Command not recognized, please try again." << std::endl;
         }
-        //delete ServerCommand;
+        delete CommandsList;
         delete servercomfun;
     }
 

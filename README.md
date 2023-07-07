@@ -173,9 +173,13 @@ Data Preprocessing Logic:
 - 2.
 - 3.
 
-- Batch Size optimisation:
+[Batch Size optimisation:]
 
-Ideas: 
+Ideas:
+
+-
+-
+-
 
 Specific model fomatting:
 

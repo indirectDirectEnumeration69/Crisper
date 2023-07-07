@@ -9,6 +9,7 @@
 #include <string>
 #include "Details.h"
 #include <atomic>
+#include "ServerCommandList.h"
 class ServerCommandFunctionality {
 private:
     std::mutex mtx;
@@ -50,10 +51,17 @@ public:
     void details() {
         Details<std::thread> ThreadDetails;
         Details<int>ThreadCount;
+
     }
 
     void help() {
-
+        ServerCommands::CommandList CommandList;
+        std::cout << "\n";
+        std::cout << "\033[32m " << "[These are the available commands]" << "\033[0m"<<std::endl;
+        for (const auto& command : CommandList.commands) {
+            std::cout << command << std::endl;
+        }
+        std::cout << "\n";
     }
 
     void back() {

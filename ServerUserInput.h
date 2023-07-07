@@ -31,7 +31,7 @@ public:
         else if (cmdCommand == "Details") {
             servercomfun->details();
         }
-        else if (cmdCommand == "Help") {
+        else if (cmdCommand == "Help"||cmdCommand == "help") {
             servercomfun->help();
         }
         else if (cmdCommand == "Back") {

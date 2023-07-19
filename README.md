@@ -7,7 +7,7 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 - Organising into payloads for specific use cases operating systems , web browsers , specific environments.
 
-- This is a long term project im constantly working on when i can at the moment im using matlabs to gather the results for assessing what models will be efficent for each task i will be applying each model's use case for.
+- This is a long term project im constantly working on when i can, at the moment im using matlabs to gather the results for assessing what models will be efficent for each task i will be applying each model's use case for.
 
 - end date is unknown however during my free time this project will constantly be expanded upon till its good enough for others to contribute upon my inital ideas and implementation.
 

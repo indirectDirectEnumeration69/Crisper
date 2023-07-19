@@ -108,7 +108,7 @@ RoadMap (Currently not in order needs further details) :
   13.
   14.
 
-- 1. Work status (meaning when ill specifically be actively working on this project) : Current.
+- 1. Work status (meaning when ill specifically be actively working on this project) : Break while i finish matlabs anlaysis for model efficency at given tasks.
 
 --------
 Neural network model variants being considered (matlabs , API's)

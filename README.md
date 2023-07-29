@@ -139,6 +139,38 @@ Python for data science use cases:
 -
 -
 -
+
+Python Libs:
+
+-
+-
+-
+-
+-
+-
+
+
+Dependencies: 
+
+-
+-
+-
+
+installation versions:
+
+-
+-
+-
+-
+
+command lines for dependencies with not handled by function-s:
+
+-
+-
+-
+-
+
+
 --------------
 
 

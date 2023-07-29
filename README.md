@@ -13,11 +13,15 @@ sentimental analysis training and preprocessing is finished, preprocessing for N
 
 
 sentiment analysis preprocessing:
--- 
+
+-
+-
 -
 
 sentiment analysis training :
---
+
+-
+-
 -
 ------------------
 Python for data science use cases:

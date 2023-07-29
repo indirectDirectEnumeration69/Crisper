@@ -50,11 +50,7 @@ XTrain and YTran formating :
 
 ==
 
-==
-
 - Padding sequence logic :
-
-==
 
 ==
 
@@ -123,6 +119,7 @@ Target sequence and input features:
 -
 
 ====
+
 - Layers used : [ 
 
 

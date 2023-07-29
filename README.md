@@ -38,7 +38,7 @@ XTrain and YTran formating :
 - Padding sequence logic :
 
 
-Layers used: [ 
+- Layers used: [ 
 
 
 
@@ -93,7 +93,7 @@ Target sequence and input features:
 -
 -
 
-Layers used : [ 
+- Layers used : [ 
 
 
 

@@ -32,6 +32,88 @@ sentiment analysis datasets being used:
 -
 -
 
+
+XTrain and YTran formating :
+
+- Padding sequence logic :
+
+
+Layers used: [ 
+
+
+
+
+]; 
+
+
+results analysis and accuracy logic:
+
+-
+-
+-
+
+
+NMT preprocessing Logic :
+
+-
+-
+-
+
+NMT Training:
+
+
+Nmt custom functions and classes : 
+
+-
+-
+
+XTrain and YTrain formatting logic:
+
+- Padding sequence logic :
+
+
+
+
+
+XTrain(language one) format and logic :
+
+-
+-
+
+
+
+YTrain(language two) format and logic : 
+
+-
+- 
+
+
+Target sequence and input features: 
+
+-
+-
+
+Layers used : [ 
+
+
+
+
+]; 
+
+results analysis and accuracy logic:
+
+-
+-
+-
+
+
+
+
+Dataset used: 
+
+- more will be added
+- english-german
+
 ------------------
 Python for data science use cases:
 

@@ -12,14 +12,13 @@ Matlabs Notes:
 
 sentimental analysis training and preprocessing is finished, preprocessing for NMT is finished however needs further optimisation as matlabs doesnt support sequence to sequence machine translation training i am currently making custom batching and training loops as well as custom sequence classification layers etc.
 
-====
 sentiment analysis preprocessing:
 
 -
 -
 -
 
-====
+
 Capturing sentiment steps and context Logic : 
 
 -
@@ -27,7 +26,7 @@ Capturing sentiment steps and context Logic :
 -
 
 
-====
+
 sentiment analysis training :
 
 -
@@ -37,7 +36,7 @@ sentiment analysis training :
 
 
 
-====
+
 sentiment analysis datasets being used:
 
 -
@@ -70,35 +69,35 @@ results analysis and accuracy logic:
 -
 ------------
 
-====
+
 NMT preprocessing Logic :
 
 -
 -
 -
-====
+
 NMT Training:
 
 -
 -
-====
+
 Nmt custom functions and classes : 
 
 -
 -
 
-====
+
 XTrain and YTrain formatting logic:
 
 
-====
+
 - Padding sequence logic :
 -
 -
 -
 -
 
-====
+
 XTrain(language one) format and logic :
 
 -
@@ -106,19 +105,19 @@ XTrain(language one) format and logic :
 -
 
 
-====
+
 YTrain(language two) format and logic : 
 
 -
 - 
 
-====
+
 Target sequence and input features: 
 
 -
 -
 
-====
+
 
 - Layers used : [ 
 
@@ -127,7 +126,7 @@ Target sequence and input features:
 
   ]; 
 
-====
+
 results analysis and accuracy logic:
 
 -
@@ -135,8 +134,6 @@ results analysis and accuracy logic:
 -
 
 
-
-====
 Dataset used: 
 
 - more will be added

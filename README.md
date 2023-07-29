@@ -81,13 +81,15 @@ Nmt custom functions and classes :
 XTrain and YTrain formatting logic:
 
 - Padding sequence logic :
-
-
-
+-
+-
+-
+-
 
 
 XTrain(language one) format and logic :
 
+-
 -
 -
 

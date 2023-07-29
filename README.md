@@ -163,7 +163,7 @@ installation versions:
 -
 -
 
-command lines for dependencies with not handled by function-s:
+command lines for dependencies if not handled already by function-s:
 
 -
 -

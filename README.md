@@ -43,25 +43,17 @@ sentiment analysis datasets being used:
 -
 -
 
-==
-
 XTrain and YTran formating :
 
-==
 
 - Padding sequence logic :
 
-==
 
 - Layers used: [ 
-
-==
-
 
 
   ]; 
 
-==
 results analysis and accuracy logic:
 
 -

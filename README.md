@@ -125,6 +125,12 @@ results analysis and accuracy logic:
 -
 -
 
+Variants of attention layers (considered for optimisation) :
+
+in use: ScaledDotProductAttentionLayer.
+
+
+
 
 Dataset used: 
 

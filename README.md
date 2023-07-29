@@ -43,7 +43,7 @@ XTrain and YTran formating :
 
 
 
-]; 
+  ]; 
 
 
 results analysis and accuracy logic:
@@ -98,7 +98,7 @@ Target sequence and input features:
 
 
 
-]; 
+  ]; 
 
 results analysis and accuracy logic:
 

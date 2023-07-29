@@ -23,6 +23,14 @@ sentiment analysis training :
 -
 -
 -
+
+
+sentiment analysis datasets being used:
+
+-
+-
+-
+
 ------------------
 Python for data science use cases:
 

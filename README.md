@@ -19,11 +19,22 @@ sentiment analysis preprocessing:
 -
 -
 
+Capturing sentiment steps and context Logic : 
+
+-
+-
+-
+
+
+
 sentiment analysis training :
 
 -
 -
 -
+
+
+
 
 
 sentiment analysis datasets being used:

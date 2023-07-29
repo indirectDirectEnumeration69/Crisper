@@ -51,7 +51,7 @@ results analysis and accuracy logic:
 -
 -
 -
-
+------------
 
 NMT preprocessing Logic :
 
@@ -115,6 +115,7 @@ Dataset used:
 - english-german
 
 ------------------
+
 Python for data science use cases:
 
 -

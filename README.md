@@ -127,7 +127,7 @@ results analysis and accuracy logic:
 
 Variants of attention layers (considered for optimisation) :
 
-in use: ScaledDotProductAttentionLayer.
+ie: ScaledDotProductAttentionLayer. - sentiment analysis training.
 
 
 

@@ -5,6 +5,24 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 
 -  Status: Compiles and works correctly - working on server commands now - adding user help module - also now beginning neural networks will do further testing and training locally however will take some time.
 
+-----------
+
+Matlabs Notes:
+
+sentimental analysis training and preprocessing is finished, preprocessing for NMT is finished however needs further optimisation as matlabs doesnt support sequence to sequence machine translation training i am currently making custom batching and training loops as well as custom sequence classification layers etc.
+
+
+sentiment analysis preprocessing: 
+
+sentiment analysis training :
+
+
+------------------
+
+
+
+
+
 - Organising into payloads for specific use cases operating systems , web browsers , specific environments.
 
 - This is a long term project im constantly working on when i can, at the moment im using matlabs to gather the results for assessing what models will be efficent for each task i will be applying each model's use case for.

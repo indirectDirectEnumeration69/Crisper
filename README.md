@@ -17,7 +17,14 @@ Image processing ideas:
 
 
 - [InputImage] -> [classified features] -> [feature set as labels etc] -> [match with training data image features] ->[from training data image features] -> 
-- [if image is not the same image continue] -> [gain probable relations between training images and input image] -> [from training images use additional infomation from training images] -> [training infomation search for additional images which relate to classified name,location,place,etc] -> [process images which arent in training data to be in training data (watch out for memory and storage issues) ] -> [new images classified and labelled appropiately] -> [match and relate new images with training images which relate to input image] -> [ if degree of probability is achieved , new training image paired with initial training image and features extracted] -> [use additional features from new image and training to pattern match with initial image to find more feature relations] -> [once probability is high enough group images and related data with new image] -> [output images which relate high enough with input image with additional features] -> [input data and scruitinise logically, for example if image is determined to be "image of person...", evaluate related data so we know people cant be above a certain height and data cant relate to a person unlogically without additonal related branches of data ,such as country size wont be valid unless data feature is related to place person lives , metrics have to be accurate for classified data] -> [output infomation on input image].
+- [if image is not the same image continue] -> [gain probable relations between training images and input image] -> [from training images use additional 
+
+- infomation from training images] -> [training infomation search for additional images which relate to classified name,location,place,etc] -> [process images which arent in training data to be in training data (watch out for memory and storage issues) ] -> [new images classified and labelled appropiately] -> [match and relate new images with training images which relate to input image] -> [ if degree of probability is achieved , new training image paired with initial training 
+
+- image and features extracted] -> [use additional features from new image and training to pattern match with initial image to find more feature relations] -> [once probability is high enough group images and related data with new image] -> [output images which relate high enough with input image with additional features] -> 
+
+
+- [input data and scruitinise logically, for example if image is determined to be "image of person...", evaluate related data so we know people cant be above a certain height and data cant relate to a person unlogically without additonal related branches of data ,such as country size wont be valid unless data feature is related to place person lives , metrics have to be accurate for classified data] -> [output infomation on input image].
 
 
 

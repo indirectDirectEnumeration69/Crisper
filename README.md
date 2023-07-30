@@ -169,6 +169,15 @@ Dataset used:
 - more will be added
 - english-german
 
+
+Matlabs addons: 
+
+-
+-
+-
+-
+-
+
 ------------------
 
 Python for data science use cases:

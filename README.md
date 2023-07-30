@@ -15,7 +15,7 @@ Image processing ideas:
 
 
 
-sentimental analysis training and preprocessing is finished, preprocessing for NMT is finished however needs further optimisation as matlabs doesnt support sequence to sequence machine translation training i am currently making custom batching and training loops as well as custom sequence classification layers etc, still optimising sentiment training.
+sentimental analysis training and preprocessing is finished, preprocessing for NMT is finished however needs further optimisation as matlabs doesnt support sequence to sequence machine translation training i am currently making custom batching and training loops as well as custom sequence classification layers etc, still optimising sentiment training for better results.
 
 
 sentiment analysis preprocessing:

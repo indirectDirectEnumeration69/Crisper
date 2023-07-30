@@ -11,7 +11,7 @@ Matlabs Notes:
 --
 Image processing ideas:
 
-based on rgb values, use rgb values for pattern matching -> pattern match images to locations and images of locations with other data available in image (text,numbers, rgb color values , gradients of rgb values to determine categories such as time of image taken, skin pigmentation , etc to gain approximate geo location of images and infomation images provide. (need large amounts of training data for this tho).
+- based on rgb values, use rgb values for pattern matching -> pattern match images to locations and images of locations with other data available in image (text,numbers, rgb color values , gradients of rgb values to determine categories such as time of image taken, skin pigmentation , etc to gain approximate geo location of images and infomation images provide. (need large amounts of training data for this tho).
 
 
 

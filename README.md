@@ -30,7 +30,11 @@ Image processing ideas:
 - [input data and scruitinise logically, for example if image is determined to be "image of person...", evaluate related data so we know people cant be above a certain height and data cant relate to a person unlogically without additonal related branches of data ,such as country size wont be valid unless data feature is related to place person lives , metrics have to be accurate for classified data] -> [output infomation on input image].
 
 
+Post processing adjustments: 
 
+-
+-
+-
 
 fail/success cases:
 

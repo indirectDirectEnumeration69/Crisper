@@ -10,7 +10,14 @@ Sub Project of a hopefully easy to use command line for multi user purposes.
 Matlabs Notes:
 --
 
-sentimental analysis training and preprocessing is finished, preprocessing for NMT is finished however needs further optimisation as matlabs doesnt support sequence to sequence machine translation training i am currently making custom batching and training loops as well as custom sequence classification layers etc.
+sentimental analysis training and preprocessing is finished, preprocessing for NMT is finished however needs further optimisation as matlabs doesnt support sequence to sequence machine translation training i am currently making custom batching and training loops as well as custom sequence classification layers etc, still optimising sentiment training.
+
+
+
+Image processing ideas:
+
+based on rgb values, use rgb values for pattern matching -> pattern match images to locations and images of locations with other data available in image (text,numbers, rgb color values , gradients of rgb values to determine categories such as time of image taken, skin pigmentation , etc to gain approximate geo location of images and infomation images provide. (need large amounts of training data for this tho).
+
 
 sentiment analysis preprocessing:
 

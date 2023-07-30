@@ -178,6 +178,19 @@ Matlabs addons:
 -
 -
 
+matlabs documentation used:
+
+-
+-
+-
+-
+
+Literature used : 
+
+-
+-
+-
+
 ------------------
 
 Python for data science use cases:

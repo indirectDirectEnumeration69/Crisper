@@ -427,8 +427,8 @@ Specific model fomatting:
 
 HelperFunctions Logic: 
 
-- 1.
-- 2.
+- 1
+- 2 
 
 Optimization features:
 

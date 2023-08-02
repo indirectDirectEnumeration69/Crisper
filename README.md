@@ -236,8 +236,17 @@ command lines for dependencies if not handled already by function-s:
 
 
 --------------
+Batch scripting section:
+-
+
+-
+-
+-
 
 
+
+
+------------------------
 
 
 - Organising into payloads for specific use cases operating systems , web browsers , specific environments.
